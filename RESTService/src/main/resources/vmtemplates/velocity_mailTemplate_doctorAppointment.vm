@@ -1,0 +1,18 @@
+<html>
+<body>
+<h3>Hello ${appointment.doctor.firstName} ${appointment.doctor.lastName},</h3>
+<p>you have successfully appointment.</p>
+<br>
+<h4>Appointment details:</h4>
+<br>
+<div>
+    <p><b>Patient name : ${appointment.patient.firstName} ${appointment.patient.lastName}</p>
+    <p><b>Start time : ${appointment.startTime}</p>
+    <p><b>End time : ${appointment.endTime}</p>
+    <p><b>Cause : ${appointment.cause}</p>
+</div>
+<br>
+<span><b>Best regards,</b>
+    <p>FiiPractic</p></span>
+</body>
+</html>
